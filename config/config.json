@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "authsystem",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "migrationStorageTableName": "_sequelize_meta",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "_sequelize_data"
+  },
+  "test": {
+    "username": "postgres",
+    "password": null,
+    "database": "authsystem",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "migrationStorageTableName": "_sequelize_meta",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "_sequelize_data"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
